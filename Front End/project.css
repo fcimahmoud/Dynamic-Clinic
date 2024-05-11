@@ -1,0 +1,1086 @@
+body{
+  margin: 0;
+  font-family: "Roboto Condensed",sans-serif;
+  
+
+  
+}
+p{
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 24px;
+}
+p,h1,h3,h2,h4,h5,h6{
+  margin: 0;
+  padding: 0;
+  
+}
+h1,h2,h3,h4,h5,h6{
+  font-family: "Roboto Condensed",sans-serif;
+
+}
+/* nav bar */
+.nav-bar{
+  background-color: white;
+  padding: 20px 0 20px 114px;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  column-gap: 400px;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  right: 0;
+  left: 0;
+  top: 0;
+  box-shadow: 0 0.125rem 0.25rem rgb(0,0,0 ,8%);
+  z-index:1000;
+}
+
+/* right nav section started */
+.name-hospital{
+  color: #13c5dd;
+  font-weight: 700;
+  font-size: 2.5rem;
+  cursor: pointer;
+  width: 240px;
+}
+/* left-section end */
+
+/* right section start */
+.right-nav a{
+  text-decoration: none;
+  color: #1d2a4d;
+  font-size: 18px;
+  font-family: 'Jost', sans-serif;
+  font-weight: bold;
+  margin-left: 30px;
+  padding:0 0 29px 0; 
+  transition:  0.5s;
+  border-width: 0 0 5px 0;
+  border-style: solid;
+  border-color: white;
+
+}
+.right-nav a:hover{
+  color: #13C5DD;
+  border-color: #13C5DD;
+}
+
+/* end of navbar */
+
+
+
+ /* header */
+.header{
+  margin-top: 88px;
+  padding: 100px 0 0 115px;
+  height: 410px;
+  background-color: #13c5dd;
+  background: url(img/hero1.jpg) top right no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.header h5{
+  color: #13c5dd;
+  line-height: 24px;
+  width: 206px;
+  font-size: 20px;
+  font-weight: bold;  
+  border-bottom-width: 5px;
+  border-bottom-color: #8a99a8;
+  border-bottom-style: solid;
+  margin-bottom: 10px;
+}
+.header h1{
+  color: white;
+  font-size: 80px;
+}
+.button-header{
+  margin:48px 8px;
+}
+.find-doctor,.appointment{
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: bold;
+  padding: 17px 50px ;
+  border-radius: 40px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: white;
+  margin-right: 18px;
+  
+}
+.appointment{
+  color: white;
+}
+.find-doctor{
+  color: black;
+  background-color: #eff5f9;
+}
+.appointment{
+  background-color: transparent;
+  transition: background-color 0.5s;
+}
+.appointment:hover{
+  background-color: white;
+  color: black;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+}
+.appointment:active{
+  border-width: 3px;
+  border-color:#c6d2d4;
+  border-radius: 45px;
+  transition: 0.1s;
+}
+.find-doctor:active{
+  border-width: 3px;
+  border-color:#c6d2d4;
+  border-radius: 45px;
+  transition: 0.1s;
+}
+/* end of header */
+
+
+
+/* aboutus */
+.about-us{
+  margin-top: 100px;
+  margin-left: 115px;
+  margin-right: 114px;
+  display: grid;
+  grid-template-columns: 440px 1fr;
+  column-gap: 48px;
+}
+
+.about-us img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.h5-about-us{
+  color: #13c5dd;
+  line-height: 24px;
+  width: 86px;
+  font-size: 20px;
+  font-weight: bold;  
+  border-bottom-width: 5px;
+  border-bottom-color: #dee2e6;
+  border-bottom-style: solid;
+  margin-bottom: 8px;
+}
+
+.h1-about-us{
+    color: #1d2a4d;
+    font-size: 56px;
+}
+.para-about-us{
+  color: #8a96a8;
+  font-size: 17px;
+  font-weight: 400;
+  padding-top: 20px;
+  line-height: 25px;
+
+}
+
+.icon-about-us{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 15px;
+  align-items: center;
+}
+
+.icon{
+  margin-top: 30px;
+  padding-left: 20px;
+  background-color: #eff5f9;
+  border-radius: 90px;
+}
+.icon i{
+  padding: 27px 30px 0 30px;
+  justify-content: center;
+  
+  color: #13c5dd;
+}
+.icon h6{
+  font-size: 16px;
+  padding:15px 22px 27px 22px;
+  line-height: 15px;
+  color: #272133; 
+}
+.small-{
+  display: block;
+  padding-left: 9px;
+  padding-top: -2px;
+  color: #13C5DD;
+  font-weight: bold;
+}
+.icon .free{
+  text-align: center;
+  padding-left: 0px;
+}
+/* end about us */
+
+
+/* service */
+.services-head{
+  text-align: center;
+  justify-content: center;
+  padding: 100px 450px 50px 450px;
+
+}
+.services-head h5{
+  font-size: 20px;
+  margin-left: 280px;
+  margin-bottom: 12px;
+  color: #13c5dd; 
+  border-bottom-width: 5px;
+  width: 80px;
+  border-bottom-color: #dee2e6;
+  border-bottom-style: solid;
+  
+}
+
+.services-head h1{
+  color: #1d2a4d;
+  font-size: 55px;
+  
+}
+.services-option{
+  padding: 0 109px 0 114px;
+  display: grid;
+  column-gap: 50px;
+  row-gap: 50px;
+  grid-template-columns: 1fr 1fr 1fr;
+  text-align: center;
+}
+.services-item{
+  background-color: #eff5f9;
+  border-radius: 8px;
+  padding: 0 30px 60px 30px  ;
+}
+.services-option .services-item .icon-services i{
+  margin-top: 57px;
+  margin-bottom: 20px;
+  padding-top: 37px;
+  padding-bottom: 34px;
+  padding-left: 54px;
+  padding-right:  54px;
+  border-radius:50%; 
+  transform: rotate();
+  background-color: #13c5dd;
+  color: #fff;
+}
+.services-item h4{
+  font-size:24px;
+  color: #272133;
+  margin-bottom: 20px;
+
+}
+
+.services-item p{
+  color: #8a96a8;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 24px;
+}
+/* end of services */
+
+
+/* appointment or booking */
+.booking{
+  margin-top: 97px;
+  background-color: #13c5dd;
+  padding: 100px 114px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 50px;
+}
+.make-appointment h5{
+  font-size: 20px;
+  color: #ffffff; 
+  margin-bottom: 8px;
+  border-bottom-width: 5px;
+  width: 125px;
+  border-bottom-color: #dee2e6;
+  border-bottom-style: solid;
+}
+
+.make-appointment h1{
+  color: #1d2a4d;
+  font-size: 55px;
+  margin-bottom: 27px;
+}
+.make-appointment p{
+  color: #fffffc;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.button-booking{
+  margin-top: 67px;
+}
+.make-appointment a{
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: bold;
+  padding: 17px 50px ;
+  border-radius: 40px;
+  margin-right: 18px;
+}
+
+.booking-find-docter{
+  background-color: #1d2a4d;
+  color: #fffffc;
+  border: none;
+  transition: 0.5s;
+}
+.booking-read-more{
+  background-color: transparent;
+  color: #1d2a4d;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #1d2a4d;
+  transition: 0.5s;
+  
+
+}
+.booking-find-docter:hover{
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.7);
+}
+.booking-find-docter:active{
+  border-width: 2px;
+  border-color:#1f3a3f;
+  border-radius: 45px;
+  border-style: solid;
+  transition: 0.1s;
+  
+}
+.booking-read-more:hover{
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.7);
+  background-color: #1d2a4d;
+  color: #eff5f9;
+}
+.booking-read-more:active{
+  border-width: 2px;
+  border-color:#1f3a3f;
+  border-radius: 45px;
+  border-style: solid;
+  transition: 0.1s;
+}
+
+.book-appointment{
+  padding: 7px 55px;
+
+  background-color: #ffffff;
+  border-radius: 8px;
+  text-align: center;
+
+}
+.book-appointment h1{
+  color: #1d2a4d;
+  font-size: 40px;
+  margin-top: 48px;
+  margin-bottom: 34px;
+  text-align: center;
+}
+
+.forms{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  column-gap: 22px;
+  row-gap: 0;
+
+}
+.booking-input{
+  padding:20px 10px;
+  background-color: #eff5f9;
+  color: #777e84;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+}
+
+.book-link{
+  margin-top: 35px;
+  margin-bottom: 10px;
+  padding-bottom: 50px;
+}
+.book-appiontment-link{
+  padding: 20px 110px;
+  border-radius: 30px;
+  font-size: 16px;
+  text-decoration: none;
+  color: #fffffc;
+  font-weight: bold;
+  background-color: #13c5dd;
+  transition: 0.5s;
+  font-size: 16px;
+}
+.book-appiontment-link:hover{
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.7);
+  color: #1d2a4d;
+}
+
+/* end of booking */
+
+
+
+ /* pricing */
+.medical-package-price{
+  text-align: center;
+  justify-content: center;
+  padding: 100px 450px 50px 450px;
+
+}
+.medical-package-price h5{
+  font-size: 20px;
+  margin-left: 228px;
+  margin-bottom: 8px;
+  color: #13c5dd; 
+  border-bottom-width: 5px;
+  width: 170px;
+  border-bottom-color: #dee2e6;
+  border-bottom-style: solid;
+  
+}
+
+.medical-package-price h1{
+  color: #1d2a4d;
+  margin-left: 15px;
+  font-size: 55px;
+}
+
+.price-option{
+  padding-left: 255px;
+  padding-right: 163px;
+  display: grid;
+  grid-template-columns: 314px 314px 314px;
+  column-gap: 40px;
+}
+.img-price-info1{
+  background: url(img/price-4.jpg);
+}
+.img-price-info2{
+  background: url(img/price-1.jpg);
+}
+.img-price-info3{
+  background: url(img/price-3.jpg);
+  border-radius: 5px;
+}
+
+.img-info-up{
+  padding: 52px 30px 20px 40px;
+  text-align: center;
+  background: rgba(29, 42, 77, .8);
+  border-radius: 5px;
+}
+.img-info-up h3{
+  font-size: 26px;
+  color: #13c5dd;
+  margin-bottom: 10px;
+}
+.img-info-up h1{
+  font-size: 52px;
+  color: #ffffff;
+  margin-bottom: 15px;
+  
+}
+/* دي العلامه الي فوق الفلوس وتحتها */
+.fw-normal{
+  vertical-align: top;
+  margin-right: -10px;
+  font-weight: 400;
+  color: #ffffff;
+}
+.fe-normal{
+  margin-left: -12px;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+.price-information{
+  text-align: center;
+  background-color: #eff5f9;
+  padding-top: 35px;
+}
+.price-information p{
+  
+  color: #8490a2;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 40px;
+}
+.price-information button{
+  color: white;
+  background-color: #13C5DD;
+  border: none;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 20px 50px;
+  border-radius: 30px;
+  transition: 0.5s;
+  margin-top: 15px;
+  margin-bottom: 50px;
+} 
+
+.price-information button:hover{
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.7);
+  color: #272133;
+  
+}
+
+.background-green{
+  margin: 0 114px ; 
+  height: 327px;
+  background-color: #13c5dd;
+  border-radius: 8px 8px 50% 50%;
+  margin-top: -200px;
+  text-align:center;
+}
+.background-green button{
+  margin-top: 240px;
+  margin-right: 7px;
+  padding: 15px;
+  border: none;
+  border-radius: 50%;
+  color: #13C5DD;
+}
+.background-green i{
+  font-size: 20px;
+  transition: 0.5s;
+}
+.background-green button:hover{
+  color:#272133;
+}
+
+/* end of price */
+
+
+
+
+/* blog post */
+.blog-post{
+  text-align: center;
+  justify-content: center;
+  padding: 100px 450px 50px 450px;
+}
+
+.blog-post h5{
+  font-size: 20px;
+  margin-left: 270px;
+  margin-bottom: 12px;
+  color: #13c5dd; 
+  border-bottom-width: 5px;
+  width: 96px;
+  border-bottom-color: #dee2e6;
+  border-bottom-style: solid;
+}
+.blog-post h1{
+  color: #1d2a4d;
+  padding-left: 15px;
+  font-size: 55px;
+}
+
+.blog-item{
+  margin:50px 114px;
+  padding-left: 88px;
+  padding-right: 163px;
+  display: grid;
+  grid-template-columns: 343px 343px 343px;
+  column-gap: 50px;
+  
+}
+.blog-section{
+  border-radius: 5px;
+}
+.blog-section img{
+  width: 100%;
+  object-fit: cover;
+  border-radius: 5px;
+}
+.info-blog{
+  padding: 30px 25px;
+  margin-top: -5px;
+  background-color: #eff5f9;
+}
+
+.info-blog a{
+  text-decoration: none;
+  font-size: 26px;
+  font-family: "Roboto Condensed",sans-serif;
+  font-weight: 700;
+  color: #1d2a4d;
+}
+.info-blog a:hover{
+  color: #13C5DD;
+}
+.info-blog p{
+  color: #8a96a8;
+  padding: 13px 0;
+  padding-bottom: 15px;
+  line-height: 26px;
+}
+
+.blog-publisher{
+  padding:15px 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #eff5f9;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+   
+}
+.blog-pub-right{
+  display: flex;
+  align-items: center;
+}
+.blog-pub-right img{
+  object-fit: cover;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  margin-right: 7px;
+ 
+}
+
+.blog-pub-right small{
+  color: #8a96a8;
+  font-family: "Roboto Condensed",sans-serif;
+  font-size: 16px;
+}
+.blog-pub-left{
+  display: flex;
+
+}
+.blog-pub-left i{
+  font-size: 14px;
+  color: #13C5DD;
+}
+
+.sect1{
+  margin-right: 15px;
+}
+.blog-pub-left small{
+  color: #8a96a8;
+  font-family: "Roboto Condensed",sans-serif;
+  font-size: 16px;
+
+}
+/* end of blog */
+
+
+ /* footer */
+.footer{
+  padding: 70px 114px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 25px;
+  background-color: #1d2a4d;
+
+}
+
+.footer-item h3{
+  font-size: 24px;
+  border-bottom-width:5px ;
+  border-bottom-style: solid;
+  border-bottom-color: #354f8e ;
+  font-family: "Roboto Condensed",sans-serif;
+  color: #13c5dd;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+
+.footer-item0{
+  width: 140px;
+}
+.footer-item p{
+  color: #EFF5F9;
+  font-size: 16px;
+  line-height: 25px;
+  margin-bottom:20px ;
+  margin:0 0 20px 0;
+}
+
+.iconfooter-right i{
+  color: #13c5dd;
+  padding: 5px 5px;
+  font-size: 16px;
+
+}
+.iconfooter-right{
+  color: #EFF5F9;
+  font-size: 18px;
+
+}
+.footer-item1{
+  width: 127px;
+}
+.footer-item2{
+  width: 182px;
+}
+.footer-item3{
+  width: 90px;
+}
+
+.footer-item a{
+  text-decoration: none;
+  color: #EFF5F9;
+  font-size: 17px; 
+  display: block;
+  transition: 0.5s;
+}
+.footer-item a:hover{
+  color: #13C5DD;
+}
+.news-letters input{
+  padding: 20px 10px;
+  width: 150px;
+  background-color: #ffffff;
+  font-size: 16px;
+  margin-right: 0;
+  border-top-right-radius:0 ;
+  border-bottom-right-radius:0 ;
+}
+.news-letters button{
+  padding: 19px 10px;
+  color: white;
+  font-weight: bold;
+  background-color: #13C5DD;
+  font-size: 17px;
+  border: none;
+  margin-left: -3px;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  transition: 0.5s;
+}
+.news-letters button:hover{
+  color: #272133;
+}
+.icons-item p{
+  margin-bottom: 10px;
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #13C5DD;
+}
+
+.icons-item a{
+  display: inline-block;
+  margin-right: 8px;
+  margin-top: 0;
+  padding: 8px 15px;
+  border-radius: 8px;
+  font-size: 19px;
+  text-align: center;
+  background-color: #13C5DD;
+  transition: 0.5s;
+}
+.icons-item a:hover{
+  color: #1d2a4d;
+}
+
+
+/* end of footer */
+
+
+
+/* table styling start */
+
+
+.col{
+  align-items: center;
+  width: 70%;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+    
+.our-time{  
+text-align: center; 
+/* background-color: aqua; */
+background-image: url(img/122.jpg);
+position: relative;
+height: 200px;
+
+}
+.hi-t{
+position: absolute;
+left: 43%;
+top: 42%;
+font-size: 25px;
+font-weight: bold;
+width: 150x;
+height: 70px;
+padding-top: 15px;
+padding-left: 15px;
+padding-right: 15px;
+border-radius: 30px;
+box-shadow: 0 0 6px rgba(0,0,0,0.5);
+color: rgb(74, 73, 73);
+}
+
+
+.timetable{
+  height: 800px;
+border-collapse: collapse;
+margin: 25px 25px;
+min-width: 400px;
+display: grid;
+box-shadow:  0 0 20px rgba(0, 0, 0, 0.15);
+
+}
+
+
+
+.timetable thead tr{
+background-color: #13c5dd;
+color: #ffffff;
+text-align: center;
+}
+
+.timetable th,
+.timetable td {
+padding: 12px 15px;
+}
+
+.timetable tbody tr:nth-of-type(even){
+background-color: #f3f3ff;
+}
+
+/* table styling end */
+
+
+
+
+/* LOG-Blytshooooooo */
+
+
+
+
+
+.body-log{
+	/*  */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	font-family: 'Montserrat', sans-serif;
+	height: 100vh;
+	margin: -20px 0 50px;
+  margin-top: 100px; /*بص يسطا دي عشان اللوج ان ينزل تحت شويه من الناف بار تمام ؟*/
+} 
+
+h1 {
+	font-weight: bold;
+	margin: 0;
+}
+
+
+
+p {
+	font-size: 14px;
+	font-weight: 100;
+	line-height: 20px;
+	letter-spacing: 0.5px;
+	margin: 20px 0 30px;
+}
+
+span {
+	font-size: 12px;
+}
+
+a {
+	color: #333;
+	font-size: 14px;
+	text-decoration: none;
+	margin: 15px 0;
+}
+
+.button-log-in {
+	border-radius: 20px;
+	border: 1px solid #13c5dd;
+	background-color: #13c5dd;
+	color: #FFFFFF;
+	font-size: 12px;
+	font-weight: bold;
+	padding: 12px 45px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	transition: transform 80ms ease-in;
+  transition:  0.5s;
+}
+
+.button-log-in:hover{
+  cursor: pointer;
+  color: #1d2a4d;
+  font-weight: 700;
+  font-size: 16px; /* الهافر ده مكانش معمول للبتن*/
+  border :none;
+}
+button:active {
+	transform: scale(0.95);
+}
+
+button:focus {
+	outline: none;
+}
+
+/*  */
+
+form {
+	background-color: #FFFFFF;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	padding: 0 50px;
+	height: 100%;
+	text-align: center;
+}
+
+input {
+	background-color: #eee;
+	border: none;
+	padding: 12px 15px;
+	margin: 8px 0;
+	width: 100%;
+  border-radius: 5px;
+  
+}
+
+.container1 {
+	background-color: #fff;
+	border-radius: 10px;
+  	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 
+			0 10px 10px rgba(0,0,0,0.22);
+	position: relative;
+	overflow: hidden;
+	width: 768px;
+	max-width: 100%;
+	min-height: 480px;
+}
+
+.form-container1 {
+	position: absolute;
+	top: 0;
+	height: 100%;
+	transition: all 0.6s ease-in-out;
+}
+
+.sign-in-container1 {
+	left: 0;
+	width: 50%;
+	z-index: 2;
+  color: #272133;
+}
+
+.overlay-container1 {
+	position: absolute;
+	top: 0;
+	left: 50%;
+	width: 50%;
+	height: 100%;
+	overflow: hidden;
+	transition: transform 0.6s ease-in-out;
+	z-index: 100;
+}
+
+/*  */
+
+.overlay {
+	background: #13c5dd;
+	/*  */
+	/*  */
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 0 0;
+	color: #FFFFFF;
+	position: relative;
+	left: -100%;
+	height: 100%;
+	width: 200%;
+  	transform: translateX(0);
+	transition: transform 0.6s ease-in-out;
+}
+
+/*  */
+
+.overlay-panel {
+	position: absolute;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	padding: 0 0px;
+	text-align: center;
+	top: 0;
+	height: 100%;
+	width: 50%;
+	transform: translateX(0);
+	transition: transform 0.6s ease-in-out;
+}
+
+/*  */
+
+/*  */
+
+.overlay-right {
+	right: 0;
+	transform: translateX(0);
+}
+
+/*  */
+/*  */
+
+.social-container1 {
+	margin: 20px 0;
+}
+
+.social-container1 a {
+	border: 1px solid #DDDDDD;
+	border-radius: 50%;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 5px;
+	height: 40px;
+	width: 40px;
+}
+
+.social-container1 :hover{
+  color: white;
+  background-color: #13c5dd;  /* تم تعديل هافر الايكون بتاع السوشيال ميديا */
+  transition: 0.5s;
+}
+
+/* end of log */
+
+
+
+
+/* video */
+.video video{
+  width: 600px;
+  border-radius: 5px;
+}
+.video{
+  padding: 50px 470px;
+  width: 500px;
+  justify-content: center;
+  align-items: center;
+}
+.video h1{
+  color: #13C5DD;
+  padding: 0px 0px 4px 25%;
+  margin-bottom: 10px;
+ 
+}
+/* end of video */
+
+                           /* تمت العملية بنجاااااح */
